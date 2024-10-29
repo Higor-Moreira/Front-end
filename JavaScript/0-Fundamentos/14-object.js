@@ -3,7 +3,7 @@
 const produto = {} // o objeto é denifido por chaves
 console.log(typeof produto)
 
-// 1º forma de cirar - adicinoando dinamicamente chave&valor
+// 1º forma de criar - adicinoando elementos um a um
 produto.nome = 'Smartphone Galaxy S25'
 produto.preco = 799.90
 produto['Black Friday'] = 0.4 // Adicionando variavel nome composto 
