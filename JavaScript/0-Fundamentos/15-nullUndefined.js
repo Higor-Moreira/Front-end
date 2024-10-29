@@ -1,6 +1,6 @@
 /*
     Ao atribuir um valor, a variavel que o armazena recebe um endereço 
-    de onde o valor esta armazenado. Desta foram, caso este valor seja
+    de onde o valor esta armazenado. Desta forma, caso este valor seja
     alterado por outra variavel, a variavel inicial também sofrerá alteração. 
 */
 
