@@ -28,3 +28,21 @@ const obj = {}
 obj.falar = function () {return 'Olá'}
 console.log(obj.falar())
 
+
+// uma fucao pode retornar ou conter outra funcao 
+function soma(a, b) {
+    return function (c) {
+        console.log(a + b + c)
+    }
+}
+
+soma(2, 3)(4)
+
+/*
+    >>> Conclusão <<<
+
+    Embora JS tenha muita flexibilidade no uso de funcao.
+    A maioria não é muito usada por deixar o codigo complexo sem necessidade. 
+*/
+
+
